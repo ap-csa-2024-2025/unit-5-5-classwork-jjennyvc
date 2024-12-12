@@ -3,12 +3,8 @@ public class Point2D
     private int x;
     private int y;
 
-    public void setX(int inputX)
+    public String toString()
     {
-        x = inputX;
-    }
-    public void setY(int inputY)
-    {
-        y = inputY;
+        return "A  x + ", " + y +" )";
     }
 }
