@@ -19,4 +19,26 @@ public class Main
     d.color = "brown";
     d.size = 23.7;
   }
+  public static void main(String[] args)
+  {
+    Dog d = new Dog();
+    d.setBreed("weiner dog");
+    d.setName("tommy");
+    d.setColor("red");
+    d.setWeigh(100);
+  }
+  public static void createDog(Dog inDog. String breed, String name, String color, double weight)
+  {
+    inDog.setBreed(breed);
+    inDog.setName(name);
+    inDog.setColor(color);
+    inDod.setWeight(weight);
+  }
+  public static void main(String[] args)
+  {
+    Dog d = new Dog();
+    createDog(d, "chihuahua", "tommy", "red", 100);
+  }
+  Dog dog3 = new Dog();
+  createDog(dog3, "golden retriver", "trong", "brown")
 }
